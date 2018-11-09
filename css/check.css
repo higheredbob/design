@@ -1,0 +1,219 @@
+input:focus {
+  outline: none !important;
+}
+
+.mui-checkbox > label, .mui-radio > label {
+  padding-left: 48px;
+}
+
+.mui-checkbox > label > input {
+  appearance: none;
+  margin: 0px !important;
+  width: 32px;
+  height: 32px;
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.54);
+  border-style: solid;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  cursor: pointer;
+}
+
+.mui-checkbox > label > input:disabled {
+  border-color: rgba(0, 0, 0, 0.26);
+}
+
+.mui-checkbox > label > input:checked:after {
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  opacity: 0;
+  width: 28px;
+  height: 28px;
+  background-color: #8BC34A;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  animation: mui-checkbox-ripple-animation 0.7s;
+}
+
+.mui-checkbox.unfilled input:checked {
+  transform: rotate(-45deg);
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-left-color: #8BC34A;
+  border-bottom-color: #8BC34A;
+  border-radius: 0px;
+  height: 16px;
+}
+
+.mui-checkbox.filled input:before {
+  content: '';
+  display: inline-block;
+  border: 2px solid #FAFAFA;
+  border-top: none;
+  border-right: none;
+  transform: scale(0.01) rotate(0deg);
+  opacity: 0;
+  width: 30px;
+  height: 14px;
+  position: absolute;
+  left: -1px;
+  top: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.mui-checkbox.filled input:checked {
+  background-color: #8BC34A;
+  border-color: #8BC34A;
+}
+
+.mui-checkbox.filled input:checked:before {
+  transform: scale(1) rotate(-45deg);
+  opacity: 1;
+}
+
+.mui-radio > label > input {
+  appearance: none;
+  margin: 0px !important;
+  width: 32px;
+  height: 32px;
+  border: 2px solid rgba(0, 0, 0, 0.54);
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  cursor: pointer;
+}
+
+.mui-radio > label > input:disabled {
+  border-color: rgba(0, 0, 0, 0.26);
+}
+
+.mui-radio > label > input:before {
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0.5);
+  background-color: rgba(0, 0, 0, 0.54);
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.mui-radio > label > input:checked {
+  border-color: #8BC34A;
+}
+
+.mui-radio > label > input:checked:before {
+  opacity: 1;
+  transform: scale(0.8);
+  background-color: #8BC34A;
+}
+
+.mui-radio > label > input:checked:checked:after {
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  opacity: 0;
+  width: 28px;
+  height: 28px;
+  background-color: #8BC34A;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  animation: mui-checkbox-ripple-animation 0.7s;
+}
+
+.mui-toggle {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mui-toggle > label {
+  min-height: 20px;
+  padding-left: 56px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.mui-toggle > label > input {
+  appearance: none;
+  position: absolute;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.54);
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 34px;
+  height: 14px;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+}
+
+.mui-toggle > label > input:before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  display: inline-block;
+  background-color: #FAFAFA;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.54);
+  transform: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.mui-toggle > label > input:checked {
+  background-color: rgba(139, 195, 74, 0.5);
+}
+
+.mui-toggle > label > input:checked:before {
+  transform: translateX(23px);
+  background-color: #8BC34A;
+}
+
+.mui-toggle > label > input:checked:after {
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  opacity: 0;
+  width: 14px;
+  height: 14px;
+  background-color: #8BC34A;
+  position: absolute;
+  right: -3px;
+  top: 0;
+  z-index: 2;
+  animation: mui-checkbox-ripple-animation 0.7s;
+}
+
+@keyframes mui-checkbox-ripple-animation {
+  from {
+    transform: scale(0.5);
+    opacity: 0.4;
+  }
+  to {
+    transform: scale(5);
+    opacity: 0;
+  }
+}

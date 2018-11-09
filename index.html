@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Nicely Designed</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.materialdesignicons.com/2.7.94/css/materialdesignicons.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/mysite.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css">
+    <link rel="styesheet" type="text/css" href="css/slick.css">
+    <link rel="styesheet" type="text/css" href="css/form.css">
+<style>
+#chkboxes {
+  overflow: visible;
+}
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 199;
+  height: 100%;
+  width:  100%;
+}
+#status{
+  background-color: white;
+  z-index: 300;
+  height: 100%;
+  width: 100%;
+}
+.chk-box{
+  height:6rem;
+  width:7rem;
+  margin-left:15rem;
+  margin-bottom:5rem;
+  background-color:#607d8b;
+  box-shadow: 0 8px 16px -1px rgba( 0, 0, 0, .25);
+  padding-top: 1.5rem;
+  border-radius:  1px;
+}
+</style>
+</head>
+
+<body >
+  <div id="status"></div>
+<div class="preloader">
+  <iframe src="preloader.html" style="border:none; width:100%; height: 100%;"></iframe>
+</div>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">
+        <strong>Nicely Designed</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about" target="_blank">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects" target="_blank">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery" target="_blank">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials" target="_blank">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#articles" target="_blank">Animated</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" target="_blank">Contact Me</a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://codepen.io/higheredbob/#" class="nav-link" target="_blank">
+              <i class="mdi mdi-codepen"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/higheredbob" class="nav-link border border-light rounded"
+              target="_blank">
+              <i class="fa fa-github mr-2"></i>Rob on GitHub
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="view" style="background-image: url('img/paris.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Utilize a Force Multiplier</strong>
+              </h1>
+
+              <p>
+                <strong>A rare breed, an End to End Developer</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>Whether you need a comprehensive design leader, or have a specific, narrow development need. Chances are, my experience and depth of skill can help.</strong>
+              </p>
+
+              <a target="_blank" href="#about" class="btn btn-outline-white btn-lg">Learn More
+                <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/First slide-->
+
+      <!--Second slide-->
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('img/springs.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Utilize a Force Multiplier</strong>
+              </h1>
+
+              <p>
+                <strong>A rare breed, an End to End Developer</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>Whether you need a comprehensive design leader, or have a specific, narrow development need. Chances are, my experience and depth of skill can help.</strong>
+              </p>
+
+              <a target="_blank" href="#about" class="btn btn-outline-white btn-lg">Learn More
+                <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Second slide-->
+
+      <!--Third slide-->
+      <div class="carousel-item">
+        <div class="view" style="background-image: url('img/orange.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Utilize a Force Multiplier</strong>
+              </h1>
+
+              <p>
+                <strong>A rare breed, an End to End Developer</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>Whether you need a comprehensive design leader, or have a specific, narrow development need. Chances are, my experience and depth of skill can help.</strong>
+              </p>
+
+              <a target="_blank" href="#about" class="btn btn-outline-white btn-lg">Learn More
+                <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Third slide-->
+
+    </div>
+    <!--/.Slides-->
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+
+  </div>
+  <!--/.Carousel Wrapper-->
+
+  <!--Main layout-->
+  <main>
+    <div class="container">
+
+      <!--Section: Main info-->
+      <section id="about" class="mt-5 wow fadeIn">
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <img src="img/bokeh.jpg" class="img-fluid z-depth-1-half" alt="">
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <!-- Main heading -->
+            <h3 class="h3 mb-3 sm-fg-orange">Nicely Designed</h3>
+            <hr>
+            <p class="sm-fg-blue">Have a need for a multi-faceted designer?</p>
+            <p class="sm-fg-blue">With 30+ years of experience in technology, there's a good chance I can help.</p>
+            <!-- Main heading -->
+
+
+
+            <p class="sm-fg-blue">
+              <strong>Dozens</strong> of coding languages,</p>
+              <p class="sm-fg-blue">
+              <strong>End to End</strong> from Desktop, to Enterprise; Design, to Deployment,
+              </p>
+              <p class="sm-fg-blue">
+              <strong>Latest Trends</strong> SVG animations, Mobile First, latest UI design trends, and more.</p>
+              <p class="sm-fg-blue">
+              <strong>From problem solving, to deploying cutting edge technology, I can help.</strong>
+            </p>
+
+            <!-- CTA -->
+            <a target="_blank" href="#articles" class="btn btn-primary btn-md">My Work
+              <i class="mdi mdi-escalator"></i>
+            </a>
+            <a target="_blank" href="#contact" class="btn btn-secondary btn-md">Contact Me
+              <i class="fa fa-image ml-1"></i>
+            </a>
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </section>
+      <!--Section: Main info-->
+
+      <hr class="my-5">
+
+      <!--Section: Main features & Quick Start-->
+      <section id="projects">
+        <div class="box-one sm-bg-teal2">
+        <h3 class="h3 text-center mb-5 light-blue-text">My Projects</h3>
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 px-4">
+
+            <!--First row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fa fa-code fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Web Development</h5>
+                <p class="cyan-text">SCSS, Javascript, html5, mobile-first, responsive, and many smaller 'support' libraries, such as GSAP, Snap.svg, anime.js, charts.js, etc.</p>
+              </div>
+            </div>
+            <!--/First row-->
+
+            <div style="height:30px"></div>
+
+            <!--Second row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fa fa-book fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">Geo-Location Expert</h5>
+                <p class="cyan-text">Can deploy a huge amount of mapping utilities, nearly every back-end to front-end python library, among many others, such as R, D3, Javascript, Et Al. Able to accomodate big-data; expereince rendering millions of coordinates onto a single projection.
+                </p>
+              </div>
+            </div>
+            <!--/Second row-->
+
+            <div style="height:30px"></div>
+
+            <!--Third row-->
+            <div class="row">
+              <div class="col-1 mr-3">
+                <i class="fa fa-graduation-cap fa-2x indigo-text"></i>
+              </div>
+              <div class="col-10">
+                <h5 class="feature-title">SVG expert</h5>
+                <p class="cyan-text">Whether it's utilizing SVG to reduce page load times, or creating compelling animations at a fraction of the size of flash. If you're not familar with SVG, talk to me about the benefits of utilizing this amazing image format.</p>
+              </div>
+            </div>
+            <!--/Third row-->
+
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12">
+
+            <img src="img/pastel.svg" height="550" style="margin-left: 125px; margin-top: -85px;">
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Grid row-->
+      </div>
+      </section>
+      <!--Section: Main features & Quick Start-->
+
+      <hr class="my-5">
+
+
+        <!-- Container -->
+
+
+
+      <section id="gallery" class="text-center">
+            <h2 class="h1-responsive font-weight-bold mb-5">Gallery</h2>
+                <!-- Grid row -->
+                <div class="row wow flipInX">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-4 col-md-12 mb-3">
+
+                        <div class="view overlay z-depth-1-half" style="background-color:rgba(0,0,0,.3)">
+                            <img src="img/strings.svg" class="img-fluid mask-img" alt="" style="height: 25rem;">
+                            <a>
+                                <div class="mask rgba-white-light"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-4 col-md-6 mb-3">
+
+                        <div class="view overlay z-depth-1-half" style="background-color:rgba(0,0,0,.3)">
+                            <img src="img/picker.svg" class="img-fluid mask-img" alt="" style="height: 25rem;">
+                            <a>
+                                <div class="mask rgba-white-light"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-lg-4 col-md-6 mb-3">
+
+                        <div class="view overlay z-depth-1-half" style="background-color:rgba(0,0,0,.3)">
+                            <img src="img/waving.svg" class="img-fluid mask-img" alt="" style="height: 25rem;">
+                            <a>
+                                <div class="mask rgba-white-light"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+                <!-- Grid row -->
+                <div class="row wow flipInX">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 mb-3">
+
+                        <div class="view overlay z-depth-1-half" style="background-color:rgba(0,0,0,.3)">
+                            <img src="img/bg-red-alt.svg" class="img-fluid mask-img" alt="" style="height: 30rem;">
+                            <a>
+                                <div class="mask rgba-white-light"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 mb-3">
+
+                        <div class="view overlay z-depth-1-half" style="background-color:rgba(0,0,0,.3)">
+                            <img src="img/bg-diagnol.svg" class="img-fluid mask-img" alt="" style="height: 30rem;">
+                            <a>
+                                <div class="mask rgba-white-light"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+                <!-- Grid row -->
+                <div class="row wow flipInX">
+
+                    <!-- Grid column -->
+                    <div class="col-md-12 mb-3" >
+
+                        <div class="view overlay z-depth-1-half" style="background-color:rgba(0,0,0,.3)">
+                            <img src="img/calendar2.svg" class="img-fluid mask-img" alt="" style=" width: 65rem; padding-left: 3rem; padding-top:2rem; ">
+                            <a>
+                                <div class="mask rgba-white-light"></div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+
+            </section>
+
+              <hr class="my-5">
+
+
+     <section id="testimonials" class="text-center py-5" style="">
+
+        <!-- Container -->
+
+
+            <!-- Section heading -->
+            <h2 class="h1-responsive font-weight-bold mb-5">Testimonials</h2>
+
+            <div class="grid-container fluid">
+                <div class="row">
+                  <div class="col-md-12 mb-3">
+                    <!-- ||*** COUNTER ***|| -->
+                    <span id="count" class="paging-info"></span>
+                    <!-- ||*** SLIDESHOW CONTAINER ***|| -->
+                      <div id="client-testimonials" class="slideshow">
+
+                       <!-- ||*** SLIDE 01 ***|| -->
+                       <div class="content-wrapper">
+                         <div class="avatar">
+                        <img id="test" src="img/kim.jpeg" alt="" />             </div>
+                          <div class="slide-content">
+                            <blockquote class="blockquote">
+
+
+                            <cite>
+                             He is one of the most intellegent persons I have ever worked for. He encouraged me contsantly, always suggesting different vantage points, and working through every scenario with me. I learned a tremendous amount from him. A leader from the front, he demanded a lot, but you saw the same from him. <i class="fa fa-quote-right" aria-hidden="true" style="color: rgba(255,255,255,.2)"></i></cite></blockquote>
+                            <name class="author"><p>&ndash; Kimberly, Sr. Lead Marketing, University</p></name>
+
+                          </div>
+
+               </div><!-- // SLIDE 01 -->
+
+              <!-- ||*** SLIDE 02 ***|| -->
+              <div class="content-wrapper">
+                <div class="avatar">
+                        <img id="test" src="img/nick.jpg" alt="" />             </div>
+                <div class="slide-content">
+                  <blockquote class="blockquote">
+                  <cite>We shared responsibility at a campus for our seperate departments. He was always considerate, and inclusive to work with. Always seeking the solution that benefited us both. I trusted him to make direction decisions that included my area, he understood the businesses need and would execute strategies that would enable the campus to thrive.<i class="fa fa-quote-right" aria-hidden="true" style="color: rgba(255,255,255,.2)"></i></cite></blockquote>
+                  <name class="author"><p>&ndash; Nick, Sr. Director Enrollment, University</p></name>
+                 </div><!-- // SLIDE 02 -->
+
+              </div><!-- // SLIDESHOW CONTAINER -->
+
+              <!-- ||*** CUSTOM SLIDESHOW NAV ***|| -->
+                   <div class="slick-pagination">
+                     <span class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+                     <span class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                  </div><!-- // CUSTOM SLIDESHOW NAV  -->
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+        <!-- Container -->
+
+    </section>
+
+     <hr class="my-5">
+
+      <section id="articles" class="text-center py-5">
+        <h2 class="h1-responsive font-weight-bold mb-5">Animated Examples</h2>
+
+        <!-- Container -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+                <svg id="svg138105" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="106.411mm" width="130.901mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 540.98055 338.74765" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                     <defs id="defs138107">
+                      <filter id="c" style="color-interpolation-filters:sRGB" height="1.1842" width="1.261" y="-.092106" x="-.13052">
+                       <feGaussianBlur id="feGaussianBlur137284" stdDeviation="14.382552"/>
+                      </filter>
+                      <linearGradient id="b" y2="-7891.2" gradientUnits="userSpaceOnUse" x2="2691.2" gradientTransform="matrix(-1 0 0 1 3808.4 1080.6)" y1="-7894" x1="2402.7">
+                       <stop id="stop137140" stop-color="#4a148c" offset="0"/>
+                       <stop id="stop137146" stop-color="#5e35b1" offset=".12244"/>
+                       <stop id="stop137148" stop-color="#651fff" offset=".35237"/>
+                       <stop id="stop137142" stop-color="#03a9f4" offset="1"/>
+                      </linearGradient>
+                      <filter id="d" style="color-interpolation-filters:sRGB" height="1.384" width="1.384" y="-0.192" x="-0.192">
+                       <feGaussianBlur id="feGaussianBlur137242" stdDeviation="4.9780318"/>
+                      </filter>
+                      <linearGradient id="a" y2="-6508" gradientUnits="userSpaceOnUse" x2="1344.8" gradientTransform="translate(-7862 5238.1)" y1="-6503.7" x1="1234.5">
+                       <stop id="stop137154" stop-color="#5e35b1" offset="0"/>
+                       <stop id="stop137156" stop-color="#0d47a1" offset="1"/>
+                      </linearGradient>
+                     </defs>
+                     <g id="layer1" transform="translate(-380.15 -511.27)">
+                      <g id="g138046" transform="translate(-703.53 7399.7)">
+                       <path id="shad1" opacity=".825" d="m1137.2-6848.8h246.96c4.8482 0 8.7512 3.9816 8.7512 8.9273v356.91c0 4.9457-3.903 8.9273-8.7512 8.9273h-246.96c-4.8482 0-8.7512-3.9816-8.7512-8.9273v-356.91c0-4.9457 3.903-8.9273 8.7512-8.9273z" fill-rule="evenodd" transform="matrix(1.0614 0 0 .55090 -77.443 -3083.9)" filter="url(#c)" fill="#161a2b"/>
+                       <path id="cardbg" d="m1126.6-6888.4h268.09c5.263 0 9.5 2.3514 9.5 5.2722v210.78c0 2.9207-4.237 5.2721-9.5 5.2721h-268.09c-5.263 0-9.5-2.3514-9.5-5.2721v-210.78c0-2.9208 4.237-5.2722 9.5-5.2722z" fill-rule="evenodd" fill="#1c2137"/>
+                       <text id="textbotgroup" opacity="0.13" style="word-spacing:0px;letter-spacing:0px" font-weight="900" font-size="13.639px" line-height="125%" y="-6774.1606" x="1157.646" font-family="&apos;Delicious Heavy&apos;" xml:space="preserve" fill="#9fa8da"><tspan id="textbot" y="-6774.1606" x="1157.646">How SCSS can help, heres what it can</tspan><tspan id="tspan138032" y="-6757.1123" x="1157.646">do for you:</tspan></text>
+                       <path id="cardtop" opacity=".856" d="m1394.7-6888.4c5.263 0 9.5 4.237 9.5 9.5v146.06h-287.09v-146.06c0-5.263 4.237-9.5 9.5-9.5h268.09z" fill-rule="evenodd" fill="url(#b)"/>
+                       <g id="fabcard" fill-rule="evenodd" transform="translate(-6.364 -62.933)">
+                        <g id="justfabs">
+                        <ellipse id="fabshad" opacity="0.766" rx="31.113" transform="matrix(0 1 -1 0 0 -108.19)" ry="31.113" filter="url(#d)" cy="-1267" cx="-6489.6" fill="#280b4c"/>
+                        <ellipse id="fabcir" rx="29.698" ry="29.698" transform="rotate(90)" cy="-1267" cx="-6603.4" fill="url(#a)"/>
+                      </g>
+                        <g id="g138003" transform="matrix(.34937 0 0 .25798 708.68 -4878.7)" fill="#c5cae9">
+                         <path id="exclam" opacity="0.766" d="m1583.1-6743.4h25.102l-7.7781 81.494h-10.253z"/>
+                         <circle id="excirc" opacity="0.766" cy="-6644.1" cx="1595.5" r="10.5"/>
+                         <path id="xarrow" opacity="0.008" d="m1591.7-6743.4h7.2531v81.494h-7.2531z"/>
+                         <path id="xarrowl" opacity="0.008" d="m1590.2-6702.2h5.7531v40.244h-5.7531z"/>
+                         <path id="xarrowr" opacity="0.008" d="m1594.4-6702.2h5.7531v40.244h-5.7531z"/>
+                        </g>
+                       </g>
+                       <text id="texttopgroup" style="word-spacing:0px;letter-spacing:0px" font-weight="900" font-size="13.639px" line-height="125%" y="-6843.8467" x="1139.1676" font-family="&apos;Delicious Heavy&apos;" xml:space="preserve" fill="#9fa8da"><tspan id="texttop" y="-6843.8467" x="1139.1676">Learn more about SCSS</tspan></text>
+                      </g>
+                     </g>
+                    </svg>
+
+
+            </div>
+            <div class="col-md-6">
+                <svg id="svg17" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="106.411mm" width="130.901mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 540.98055 338.74765" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                     <defs id="defs138">
+                      <filter id="cc" style="color-interpolation-filters:sRGB" height="1.1842" width="1.261" y="-.092106" x="-.13052">
+                       <feGaussianBlur id="feGaussianBlur16" stdDeviation="14.382552"/>
+                      </filter>
+                      <linearGradient id="bb" y2="-7891.2" gradientUnits="userSpaceOnUse" x2="2691.2" gradientTransform="matrix(-1 0 0 1 3808.4 1080.6)" y1="-7894" x1="2402.7">
+                       <stop id="stop139999" stop-color="#004d40" offset="0"/>
+                       <stop id="stop13999" stop-color="#00695c" offset=".12244"/>
+                       <stop id="stop1399" stop-color="#00897b" offset=".35237"/>
+                       <stop id="stop139" stop-color="#5c6bc0" offset="1"/>
+                      </linearGradient>
+                      <filter id="dd" style="color-interpolation-filters:sRGB" height="1.384" width="1.384" y="-0.192" x="-0.192">
+                       <feGaussianBlur id="feGaussianBlur18" stdDeviation="4.9780318"/>
+                      </filter>
+                      <linearGradient id="aa" y2="-6508" gradientUnits="userSpaceOnUse" x2="1344.8" gradientTransform="translate(-7862 5238.1)" y1="-6503.7" x1="1234.5">
+                       <stop id="stop138" stop-color="#5c6bc0" offset="0"/>
+                       <stop id="stop130" stop-color="#004d40" offset="1"/>
+                      </linearGradient>
+                     </defs>
+                     <g id="layer11" transform="translate(-380.15 -511.27)">
+                      <g id="g1380436" transform="translate(-703.53 7399.7)">
+                       <path id="shad1a" opacity=".825" d="m1137.2-6848.8h246.96c4.8482 0 8.7512 3.9816 8.7512 8.9273v356.91c0 4.9457-3.903 8.9273-8.7512 8.9273h-246.96c-4.8482 0-8.7512-3.9816-8.7512-8.9273v-356.91c0-4.9457 3.903-8.9273 8.7512-8.9273z" fill-rule="evenodd" transform="matrix(1.0614 0 0 .55090 -77.443 -3083.9)" filter="url(#cc)" fill="#161a2b"/>
+                       <path id="cardbga" d="m1126.6-6888.4h268.09c5.263 0 9.5 2.3514 9.5 5.2722v210.78c0 2.9207-4.237 5.2721-9.5 5.2721h-268.09c-5.263 0-9.5-2.3514-9.5-5.2721v-210.78c0-2.9208 4.237-5.2722 9.5-5.2722z" fill-rule="evenodd" fill="#1c2137"/>
+                       <text id="textbotgroupa" opacity="0.13" style="word-spacing:0px;letter-spacing:0px" font-weight="900" font-size="13.639px" line-height="125%" y="-6774.1606" x="1157.646" font-family="&apos;Delicious Heavy&apos;" xml:space="preserve" fill="#9fa8da"><tspan id="textbota" y="-6774.1606" x="1157.646">How SCSS can help, heres what it can</tspan><tspan id="tspan138032" y="-6757.1123" x="1157.646">do for you:</tspan></text>
+                       <path id="cardtopa" opacity=".856" d="m1394.7-6888.4c5.263 0 9.5 4.237 9.5 9.5v146.06h-287.09v-146.06c0-5.263 4.237-9.5 9.5-9.5h268.09z" fill-rule="evenodd" fill="url(#bb)"/>
+                       <g id="fabcarda" fill-rule="evenodd" transform="translate(-6.364 -62.933)">
+                        <g id="justfabsa">
+                        <ellipse id="fabshada" opacity="0.766" rx="31.113" transform="matrix(0 1 -1 0 0 -108.19)" ry="31.113" filter="url(#dd)" cy="-1267" cx="-6489.6" fill="#280b4c"/>
+                        <ellipse id="fabcira" rx="29.698" ry="29.698" transform="rotate(90)" cy="-1267" cx="-6603.4" fill="url(#aa)"/>
+                      </g>
+                        <g id="g1380503" transform="matrix(.34937 0 0 .25798 708.68 -4878.7)" fill="#c5cae9">
+                         <path id="exclama" opacity="0.766" d="m1583.1-6743.4h25.102l-7.7781 81.494h-10.253z"/>
+                         <circle id="excirca" opacity="0.766" cy="-6644.1" cx="1595.5" r="10.5"/>
+                         <path id="xarrowa" opacity="0.008" d="m1591.7-6743.4h7.2531v81.494h-7.2531z"/>
+                         <path id="xarrowla" opacity="0.008" d="m1590.2-6702.2h5.7531v40.244h-5.7531z"/>
+                         <path id="xarrowra" opacity="0.008" d="m1594.4-6702.2h5.7531v40.244h-5.7531z"/>
+                        </g>
+                       </g>
+                       <text id="texttopgroupa" style="word-spacing:0px;letter-spacing:0px" font-weight="900" font-size="13.639px" line-height="125%" y="-6843.8467" x="1139.1676" font-family="&apos;Delicious Heavy&apos;" xml:space="preserve" fill="#9fa8da"><tspan id="texttopa" y="-6843.8467" x="1139.1676">Learn more about SCSS</tspan></text>
+                      </g>
+                     </g>
+                    </svg>
+
+</div>
+<div class="col-md-12">
+  <div class="chk-box" >
+  <svg id="chkboxes"  class="" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="13.97mm" width="4.7978mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 17.000022 49.499964">
+ <g id="layer1" transform="translate(479.93 -624.76)">
+
+
+ </g>
+    <g id="clearbox" fill-rule="evenodd" fill="#ffad67" transform="translate(901.37 588.06)">
+  <g id="g135891" transform="matrix(.24888 0 0 .24889 -676.74 -404.5)">
+   <path id="radio2sm" class="osmradio" d="m186.43-790.25a32.143 32.143 0 0 0 -32.143 32.143 32.143 32.143 0 0 0 32.143 32.143 32.143 32.143 0 0 0 32.145 -32.143 32.143 32.143 0 0 0 -32.145 -32.143zm0 7.5a24.643 24.643 0 0 1 24.645 24.643 24.643 24.643 0 0 1 -24.645 24.643 24.643 24.643 0 0 1 -24.643 -24.643 24.643 24.643 0 0 1 24.643 -24.643z" transform="translate(-1055.3 187.43)"/>
+   <path id="radiosm" class="osmradio" d="m-851.69-570.67a17.143 17.143 0 0 1 -17.143 17.143 17.143 17.143 0 0 1 -17.143 -17.143 17.143 17.143 0 0 1 17.143 -17.143 17.143 17.143 0 0 1 17.143 17.143z"/>
+   <path id="rippl1" d="m-867.05-570.67a1.7857 1.7857 0 0 1 -1.7857 1.7857 1.7857 1.7857 0 0 1 -1.7857 -1.7857 1.7857 1.7857 0 0 1 1.7857 -1.7857 1.7857 1.7857 0 0 1 1.7857 1.7857z"/>
+  </g>
+  <rect id="rect135896" opacity="0.008" height="16" width="16" y="-554.53" x="-900.98"/>
+ </g>
+    <g id="g135958" transform="translate(853.87 526.56)">
+  <path id="chksm" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" d="m-851.88-525.96c-.88641 0-1.6.7136-1.6 1.6v12.8c0 .8864.71359 1.6 1.6 1.6h12.8c.88641 0 1.6-.7136 1.6-1.6v-12.8c0-.8864-.71359-1.6-1.6-1.6z" fill-rule="evenodd" fill="#ffad67"/>
+  <path id="chksm2" fill="#fff" d="m-847.26-513.33-4.4444-4.4445 1.2533-1.2533 3.1911 3.1822 6.7467-6.7466 1.2533 1.2622z"/>
+  <g fill-rule="evenodd">
+   <path id="chkbox" style="color-rendering:auto;color:#000000;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;image-rendering:auto" d="m-851.88-525.96c-.88641 0-1.5996.71516-1.5996 1.6016v12.799c0 .8864.71319 1.5996 1.5996 1.5996h12.801c.88641 0 1.5996-.71321 1.5996-1.5996v-12.799c0-.8864-.7132-1.6016-1.5996-1.6016h-12.801zm1.3125 1.6426h10.174c.70453 0 1.2715.56696 1.2715 1.2715v10.174c0 .70452-.56696 1.2715-1.2715 1.2715h-10.174c-.70453 0-1.2715-.56697-1.2715-1.2715v-10.174c0-.70452.56695-1.2715 1.2715-1.2715z" fill="#424242"/>
+   <path id="rippl2" d="m-845.3-517.96a.17857 .17857 0 0 1 -.17857 .17857 .17857 .17857 0 0 1 -.17857 -.17857 .17857 .17857 0 0 1 .17857 -.17858 .17857 .17857 0 0 1 .17857 .17858z" fill="#ffad67"/>
+   <rect id="clearrect" opacity="0.008" height="16" width="16" y="-525.96" x="-853.48" fill="#ffad67"/>
+  </g>
+ </g>
+</svg>
+</div>
+</div>
+<div class="col-md-12" style="margin-top:2rem;">
+  <p data-height="395" data-theme-id="dark" data-slug-hash="vQKXjv" data-default-tab="result" data-user="higheredbob" data-pen-title="dropdown + side-drop menus, mostly CSS" class="codepen">See the Pen <a href="https://codepen.io/higheredbob/pen/vQKXjv/">dropdown + side-drop menus, mostly CSS</a> by Rob FunGentoo (<a href="https://codepen.io/higheredbob">@higheredbob</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+</div>
+</div>
+</div>
+</section>
+ <hr class="my-5">
+<section id="contact" class="elevation-16dp" style="padding-bottom:3rem;">
+  <div class="container" style="width:45rem;">
+          <div class="row">
+            <div class="col-md-12 " >
+                <!--      Wizard container        -->
+                <div class="wizard-container">
+                    <div class="card wizard-card" data-color="blue" id="wizard">
+                        <form id="nicely_form" role="form" method="get" enctype="text/plain" >
+
+
+                          <div class="wizard-header card-header default-color elevation-16dp" style=" margin-top: 1rem; margin-bottom: 2.5rem; margin-right: 1rem; margin-left: 1rem; border-radius: 4px;">
+                              <h3 class="wizard-title">
+                                Contact Me
+                              </h3>
+                  <h5>Please Share Your Preffered Contact Information</h5>
+                          </div>
+                <div class="wizard-navigation">
+                              <ul >
+                                  <li><a href="#details" data-toggle="tab">Basics</a></li>
+                                  <li><a href="#captain" data-toggle="tab">Time</a></li>
+                                  <li><a href="#description" data-toggle="tab">Questions</a></li>
+                              </ul>
+                </div>
+
+                            <div class="tab-content">
+                                <div class="tab-pane" id="details">
+                                  <div class="row">
+                                    <div class="col-md-12">
+                                        <h4 class="info-text"> Let's get started</h4>
+                                    </div>
+                                      <div class="col-md-6">
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <i class="material-icons">face</i>
+                          </span>
+                          <div class="form-group label-floating">
+                                                  <label for="nm1" class="control-label">Your Name</label>
+                                                  <input id="nm1" name="name" type="text" class="form-control">
+                                              </div>
+                        </div>
+
+                        <div class="input-group">
+                          <span class="input-group-addon">
+                            <i class="material-icons">phone</i>
+                          </span>
+                          <div class="form-group label-floating">
+                                                  <label for="phn1" class="control-label">Phone Number</label>
+                                                  <input id="phn1" name="name2" type="text" class="form-control">
+                                              </div>
+                        </div>
+
+
+
+
+                                          </div>
+                                          <div class="col-md-6">
+                                          <div class="form-group label-floating">
+                                              <label class="control-label">State</label>
+                                              <select class="form-control">
+                            <option name="state_fm" disabled="" selected=""></option>
+                                                    <option value="Alabama"> Alabama </option>
+                                                    <option value="Alaska"> Alaska </option>
+                                                    <option value="Arizona"> Arizona </option>
+                                                    <option value="Arkansas"> Arkansas </option>
+                                                    <option value="California"> California </option>
+                                                    <option value="Colorado"> Colorado </option>
+                                                    <option value="Connecticut"> Connecticut </option>
+                                                    <option value="Delaware"> Delaware </option>
+                                                    <option value="Florida"> Florida </option>
+                                                    <option value="Georgia"> Georgia </option>
+                                                    <option value="Hawaii"> Hawaii </option>
+                                                    <option value="Idaho"> Idaho </option>
+                                                    <option value="Illinois"> Illinois </option>
+                                                    <option value="Indiana"> Indiana </option>
+                                                    <option value="Iowa"> Iowa </option>
+                                                    <option value="Kansas"> Kansas </option>
+                                                    <option value="Kentucky"> Kentucky </option>
+                                                    <option value="Louisiana"> Louisiana </option>
+                                                    <option value="Maine"> Maine </option>
+                                                    <option value="Maryland"> Maryland </option>
+                                                    <option value="Massachusetts"> Massachusetts </option>
+                                                    <option value="Michigan"> Michigan </option>
+                                                    <option value="Minnesota"> Minnesota </option>
+                                                    <option value="Mississippi"> Mississippi </option>
+                                                    <option value="Missouri"> Missouri </option>
+                                                    <option value="Montana"> Montana </option>
+                                                    <option value="Nebraska"> Nebraska </option>
+                                                    <option value="Nevada"> Nevada </option>
+                                                    <option value="New Hampshire"> New Hampshire </option>
+                                                    <option value="New Jersey"> New Jersey </option>
+                                                    <option value="New Mexico"> New Mexico </option>
+                                                    <option value="New York"> New York </option>
+                                                    <option value="North Carolina"> North Carolina </option>
+                                                    <option value="North Dakota"> North Dakota </option>
+                                                    <option value="Ohio"> Ohio </option>
+                                                    <option value="Oklahoma"> Oklahoma </option>
+                                                    <option value="Oregon"> Oregon </option>
+                                                    <option value="Pennsylvania"> Pennsylvania </option>
+                                                    <option value="Rhode Island"> Rhode Island </option>
+                                                    <option value="South Carolina"> South Carolina </option>
+                                                    <option value="South Dakota"> South Dakota </option>
+                                                    <option value="Tennessee"> Tennessee </option>
+                                                    <option value="Texas"> Texas </option>
+                                                    <option value="Utah"> Utah </option>
+                                                    <option value="Vermont"> Vermont </option>
+                                                    <option value="Virginia"> Virginia </option>
+                                                    <option value="Washington"> Washington </option>
+                                                    <option value="West Virginia"> West Virginia </option>
+                                                    <option value="Wisconsin"> Wisconsin </option>
+                                                    <option value="Wyoming"> Wyoming </option>
+                                              </select>
+                                          </div>
+
+                                          <div class="input-group">
+                                            <span class="input-group-addon">
+                                              <i class="material-icons">email</i>
+                                            </span>
+                                            <div class="form-group label-floating">
+                                                                    <label for="em1" class="control-label">Email</label>
+                                                                    <input id="em1" name="name3" type="text" class="form-control">
+                                                                </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="tab-pane" id="captain">
+                                    <h4 class="info-text">What time do you prefer contact? </h4>
+                                    <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4 ">
+
+                                                <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="If contact anytime is ok">
+                                                    <input type="radio" name="anyt" value="Design">
+                                                    <div class="icon">
+                                                        <i class="mdi mdi-timetable"></i>
+                                                    </div>
+                                                    <h6>Anytime</h6>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-4">
+                                                <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="If you prefer contact later in the day">
+                                                    <input type="radio" name="evenin" value="Code">
+                                                    <div class="icon">
+                                                        <i class="mdi mdi-home-modern"></i>
+                                                    </div>
+                                                    <h6>Evenings</h6>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-4">
+                                                <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="If contact during the day is preffered">
+                                                    <input type="radio" name="job" value="Code">
+                                                    <div class="icon">
+                                                        <i class="mdi mdi-worker"></i>
+                                                    </div>
+                                                    <h6>Work Hours</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                <div class="tab-pane" id="description">
+                                  <div class="container">
+                                    <h4 class="info-text">Additional Information or Q's?</h4>
+                                    <div class="row">
+
+                                        <div class="col-md-6">
+                                          <div class="form-group">
+                                                <label>Comment or Question</label>
+                                                <textarea class="form-control" name="questions_fm" placeholder="" rows="3"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                          <div class="form-group">
+                                                <label class="control-label">Example</label>
+                                                <p class="description">"I need a sass expert, we are trying to implement it, but hardly any experience with it. We have a lot of CSS experts, but none that have really branched into any of the pre-processors."</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="wizard-footer">
+                                <div class="pull-right">
+                                      <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
+                                      <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />
+                                  </div>
+                                  <div class="pull-left">
+                                      <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
+
+                    <div class="footer-checkbox">
+                      <div class="col-sm-12">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox" name="optionsCheckboxes">
+                          </label>
+                          Subscribe to our newsletter
+                        </div>
+                      </div>
+                    </div>
+                                  </div>
+                                  <div class="clearfix"></div>
+                            </div>
+                          </form>
+
+                    </div>
+                </div> <!-- wizard container -->
+            </div>
+        </div> <!-- row -->
+   </div>
+ </section>
+  <!--/.Footer-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/cardslide.js"></script>
+    <script src="js/wiz.js"></script>
+    <script src="js/submit.js"></script>
+
+      <!-- Initializations -->
+      <script>
+
+        $(window).on('load', function() {
+        $('#status').fadeOut();
+        $('.preloader').delay(850).fadeOut('slow');
+        $('body').delay(850).css({'overflow':'visible'});
+       });
+
+      </script>
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+</body>
+
+</html>
