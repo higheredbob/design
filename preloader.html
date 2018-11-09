@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <style>
+    svg{
+        position: relative;
+        display: block;
+        bottom: 10rem;
+        left:  10rem;
+        overflow: visible;
+    }
+    body{
+        background: white;
+    }
+</style>
+<script>
+$(document).ready(function(){
+  var bl = $('#oblue'),
+      sbl = $('#shblue'),
+      re = $('#ored'),
+      sre = $('#shred'),
+      yl = $('#oyellow'),
+      syl = $('#shyellow'),
+      cy = $('#ocyan'),
+      shard = $('#shards'),
+      rgrp = $('#rdgrp'),
+      bgrp = $('#blgrp'),
+      ygrp = $('#ylgrp'),
+      cgrp = $('#cygrp'),
+      scy = $('#shcyan');
+    TweenMax.set([bl,sbl,re,sre,yl,syl,cy,scy], {scale:1.5, transformOrigin:'50% 50%'})
+  TweenMax.set(sbl, {scaleY: 1.6, transformOrigin:'center top'})
+  TweenMax.set(scy, {scaleY: 1.6, transformOrigin:'center bottom'})
+  TweenMax.set(sre, {scaleX: 1.6, transformOrigin:'right center'})
+  TweenMax.set(syl, {scaleX: 1.6, transformOrigin:'left center'})
+  var tl = new TimelineMax({});
+  tl
+    .to(re, 0.85, {x:870, scale: 0.6, transformOrigin:'50% 50%', ease:Expo.easeIn},0.05)
+   .to(sre, 0.85, {scalex:1, transformOrigin:'right center', ease:Expo.easeIn},0.05)
+  .to(sre, 0.85, {x:155, y:10, scale: 0.6, transformOrigin:'center center', ease:Expo.easeIn},0.05)
+
+
+    .to(yl, 0.85, {x:-870, scale: 0.6, transformOrigin:'50% 50%', ease:Expo.easeIn},0.05)
+  .to(syl, 0.85, {scalex:1, transformOrigin:'left center', ease:Expo.easeIn},0.05)
+  .to(syl, 0.85, {x:-250, scale: 0.6, transformOrigin:'center center', ease:Expo.easeIn},0.05)
+
+
+  .to(bl, 0.85, {y:-870, scale: 0.6, transformOrigin:'50% 50%', ease:Expo.easeIn},0.05)
+  .to(sbl, 0.85, {scaleY: 1, transformOrigin:'center top', ease:Expo.easeIn},0.05)
+  .to(sbl, 0.85, {y:-250, scale: 0.6,  transformOrigin:'center center', ease:Expo.easeIn},0.05)
+
+
+  .to(cy, 0.85, {y:870, scale: 0.6, transformOrigin:'50% 50%', ease:Expo.easeIn},0.05)
+  .to(scy, 0.85, {scaleY: 1, transformOrigin:'center bottom', ease:Expo.easeIn},0.05)
+  .to(scy, 0.85, {y:660, scale: 0.6, transformOrigin:'center bottom', ease:Expo.easeIn},0.05)
+  .to(shard, 6, {rotation:2950, transformOrigin:'50% 50%'})
+  .to(rgrp, 0.5, {scale:1.9, transformOrigin:'50% 50%', repeat:5, yoyo:true},'-=5.6')
+  .to(bgrp, 0.5, {scale:1.9, transformOrigin:'50% 50%', repeat:5, yoyo:true},'-=5.6')
+  .to(cgrp, 0.5, {scale:1.9, transformOrigin:'50% 50%', repeat:5, yoyo:true},'-=5.4')
+  .to(ygrp, 0.5, {scale:1.9, transformOrigin:'50% 50%', repeat:5, yoyo:true},'-=5.4')
+  .to(rgrp, 2.7, {rotation:-1700, transformOrigin:'50% 50%', repeat:1, yoyo:true},'-=5.6')
+  .to(bgrp, 2.7, {rotation:-1700, transformOrigin:'50% 50%', repeat:1, yoyo:true},'-=5.6')
+  .to(cgrp, 2.7, {rotation:-1700, transformOrigin:'50% 50%', repeat:1, yoyo:true},'-=5.4')
+  .to(ygrp, 2.7, {rotation:-1700, transformOrigin:'50% 50%', repeat:1, yoyo:true},'-=5.4')
+  .to(rgrp, 0.22, {scale:0.2, transformOrigin:'50% 50%', })
+  .to(bgrp, 0.22, {scale:0.2,  transformOrigin:'50% 50%', },'-=0.15')
+  .to(cgrp, 0.22, {scale:0.2,  transformOrigin:'50% 50%', },'-=0.15')
+  .to(ygrp, 0.22, {scale:0.2,  transformOrigin:'50% 50%', },'-=0.15')
+  .to(rgrp, 0.3, {x:2500, y:850, opacity:0.001, transformOrigin:'50% 50%', },'-=0.25')
+  .to(bgrp, 0.3, {x:-1300, y:-850, opacity:0.001, transformOrigin:'50% 50%', },'-=0.25')
+ .to(cgrp, 0.3, {x:-900, y:1250, opacity:0.001, transformOrigin:'50% 50%', },'-=0.25')
+  .to(ygrp, 0.3, {x:700, y:-2950, opacity:0.001,  transformOrigin:'50% 50%', },'-=0.25')
+tl.timeScale(2.5);
+
+})
+    </script>
+    </head>
+    <body>
+        <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="700.17914px" class="col span_3_of_3"
+   height="600.59174px"
+   viewBox="0 0 1700 1400"
+   id="svg266387"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="loader.svg">
+  <defs
+     id="defs266389">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter266251"
+       x="-0.11167994"
+       width="1.2233599"
+       y="-0.084180944"
+       height="1.1683619">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="13.960042"
+         id="feGaussianBlur266253" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter266289"
+       x="-0.069876105"
+       width="1.1397521"
+       y="-0.10528001"
+       height="1.21056">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="13.159988"
+         id="feGaussianBlur266291" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter266339"
+       x="-0.09856008"
+       width="1.1971202"
+       y="-0.073188074"
+       height="1.1463763">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="12.319941"
+         id="feGaussianBlur266341" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter266197"
+       x="-0.091327183"
+       width="1.1826544"
+       y="-0.13212001"
+       height="1.26424">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="16.514987"
+         id="feGaussianBlur266199" />
+    </filter>
+  </defs>
+
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="shards"
+     transform="translate(1755.683,879.64791)">
+    <g
+       transform="translate(698.99701,1434.5244)"
+       id="rdgrp">
+      <path
+         transform="matrix(1.2292385,0,0,0.97496485,-558.76465,-26.559923)" opacity="0.2"
+         style="fill:#570000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.19999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter266197)"
+         d="m -1285.7127,-1210.9234 -217.0008,150.0005 216.9988,149.99924 217.0009,-150.00054 z"
+         id="shred"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="ored"
+            opacity="0.3"
+         d="m -2085.7125,-1210.9229 -217.0008,150.0005 216.9988,149.9992 217.0009,-150.0005 z"
+         style="fill:#d50000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.19999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="cygrp"
+       transform="translate(698.99701,634.5246)">
+      <path
+         transform="matrix(0.98623039,0,0,1.1605678,-15.638337,159.93535)"
+         style="fill:#00567b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.19999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter266339)"
+         d="m -985.71467,-1210.9234 -149.99923,-201.9991 -149.9991,201.9991 149.9992,201.9992 z"
+         id="shcyan" opacity="0.2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="ocyan"  opacity="0.3"
+         d="m -985.71467,-1210.9234 -149.99923,-201.9991 -149.9991,201.9991 149.9992,201.9992 z"
+         style="fill:#40c4ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.19999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(698.99701,1434.5244)"
+       id="ylgrp">
+      <path
+         transform="matrix(1.1648343,0,0,0.98501679,1001.9799,-15.89604)"
+         style="fill:#853c00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.19999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter266289)"
+         d="m -985.71502,-1210.9234 -225.99878,149.9992 226.00082,150.00051 225.99881,-149.99911 z"
+         id="shyellow" opacity="0.2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="oyellow"  opacity="0.3"
+         d="m -185.7146,-1210.9234 -225.99878,149.9992 226.00082,150.00051 225.998812,-149.99911 z"
+         style="fill:#ef6c00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.19999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(698.99701,1434.5244)"
+       id="blgrp">
+      <path
+         transform="matrix(0.97606771,0,0,1.2558288,-27.180239,1087.5404)"
+         style="fill:#01137a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.19999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter266251)"
+         d="m -1135.7138,-1109.9242 -150.0006,199.00055 150.0006,199.00048 150.00048,-199.00052 z"
+         id="shblue" opacity="0.2"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="oblue"  opacity="0.3"
+         d="m -1135.7138,-309.92421 -150.0006,199.00048 150.0006,199.000414 150.00048,-199.000454 z"
+         style="fill:#3d5afe;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.19999981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
+
+
+    </body>
+</html>
