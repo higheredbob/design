@@ -1,0 +1,213 @@
+<svg id="svg126955" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="132.7mm" width="173.13mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 613.45856 470.19505" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs126957">
+  <linearGradient id="b" y2="-181.83" gradientUnits="userSpaceOnUse" x2="1653.5" gradientTransform="matrix(.74520 0 0 .89474 338.52 8.613)" y1="269.71" x1="1653.5">
+   <stop id="stop125002" stop-color="#570e0d" offset="0"/>
+   <stop id="stop125004" stop-color="#90450a" offset="1"/>
+  </linearGradient>
+  <filter id="d" style="color-interpolation-filters:sRGB" height="1.1409" width="1.1045" y="-.070428" x="-.052262">
+   <feGaussianBlur id="feGaussianBlur126532" stdDeviation="12.094348"/>
+  </filter>
+  <linearGradient id="c" y2="-181.83" gradientUnits="userSpaceOnUse" x2="1653.5" gradientTransform="matrix(.76959 0 0 .92982 297.88 -13.114)" y1="269.71" x1="1653.5">
+   <stop id="stop126498" stop-color="#e66360" offset="0"/>
+   <stop id="stop126500" stop-color="#f3a05e" offset="1"/>
+  </linearGradient>
+  <filter id="a" style="color-interpolation-filters:sRGB" height="1.1708" width="1.0668" y="-.085391" x="-.033382">
+   <feGaussianBlur id="feGaussianBlur125152" stdDeviation="3.1627926"/>
+  </filter>
+  <filter id="g" style="color-interpolation-filters:sRGB" height="1.3381" width="1.0403" y="-.16907" x="-.020145">
+   <feGaussianBlur id="feGaussianBlur125178" stdDeviation="1.9925259"/>
+  </filter>
+  <filter id="f" style="color-interpolation-filters:sRGB" height="1.072" width="1.072" y="-0.036" x="-0.036">
+   <feGaussianBlur id="feGaussianBlur125192" stdDeviation="4.3285716"/>
+  </filter>
+  <filter id="h" style="color-interpolation-filters:sRGB" height="1.1298" width="1.0498" y="-.064911" x="-.024907">
+   <feGaussianBlur id="feGaussianBlur125134" stdDeviation="2.4042373"/>
+  </filter>
+  <filter id="e" style="color-interpolation-filters:sRGB" height="1.12" width="1.12" y="-0.06" x="-0.06">
+   <feGaussianBlur id="feGaussianBlur126156" stdDeviation="1.2142865"/>
+  </filter>
+ </defs>
+ <g id="layer1" transform="translate(-167.56 -500.12)">
+  <g id="g126534" transform="translate(-1105.4 687.74)">
+   <rect id="rect126492" opacity="0.887" fill-rule="evenodd" ry="2.6832" height="412.14" filter="url(#d)" width="555.41" y="-158.59" x="1302" fill="url(#b)"/>
+   <rect id="rect124990" fill-rule="evenodd" ry="2.7885" height="428.3" width="573.59" y="-186.88" x="1292.9" fill="url(#c)"/>
+   <g id="g126247" fill-rule="evenodd">
+    <rect id="rect125156" opacity="0.085" transform="matrix(1.0029 0 0 .91110 -5.1051 177.94)" ry="7.1429" height="88.893" filter="url(#a)" width="227.39" y="-43.553" x="1621" fill="#5b0f02"/>
+    <rect id="rect125116" opacity=".3" ry="5.7143" height="88.893" width="237.39" y="133.88" x="1616" fill="#fedfda"/>
+   </g>
+   <rect id="rect125158" opacity="0.879" fill-rule="evenodd" ry="0" height="28.284" filter="url(#g)" width="237.39" y="-160.61" x="1616" fill="#501106"/>
+   <rect id="rect125108" fill-rule="evenodd" ry="0" height="28.284" width="237.39" y="-160.61" x="1616" fill="#f37c69"/>
+   <g id="g126486">
+    <path id="rect125008" d="m1402.8-159.57-14.76 14.76c-.3911.39116-.3911 1.0207 0 1.4118l14.76 14.76c1.0003.30399 1.8977.43487 2.3632-.22761l-14.616-14.616c-.3912-.39116-.3912-1.0213 0-1.4125l14.616-14.616v-.0592c-.7473-.40145-1.7244-.42756-2.3632 0z" fill-rule="evenodd" fill="#fbdfc8"/>
+    <path id="path125018" d="m1497.3-159.57 14.76 14.76c.3911.39116.3911 1.0207 0 1.4118l-14.76 14.76c-1.0003.30399-1.8977.43487-2.3632-.22761l14.616-14.616c.3912-.39116.3912-1.0213 0-1.4125l-14.616-14.616v-.0592c.7473-.40145 1.7244-.42756 2.3632 0z" fill-rule="evenodd" fill="#fbdfc8"/>
+    <text id="text125828" opacity="0.748" style="word-spacing:0px;letter-spacing:0px" font-weight="900" xml:space="preserve" font-size="34.284px" line-height="125%" y="-135.61584" x="1418.9818" font-family="&apos;Delicious Heavy&apos;" fill="#ffffff"><tspan id="tspan125830" x="1418.9818" y="-135.61584">2017</tspan></text>
+   </g>
+   <g id="g126352">
+    <rect id="rect125180" opacity=".803" transform="matrix(.93249 0 0 1.0024 97.763 8.9967)" fill-rule="evenodd" ry="26.74" height="288.57" filter="url(#f)" width="288.57" y="-104.09" x="1303.9" fill="#730c02"/>
+    <rect id="rect125020" fill-rule="evenodd" ry="26.74" height="288.57" width="288.57" y="-104.09" x="1303.9" fill="#fafafa"/>
+    <g id="g125980" opacity="0.129" fill-rule="evenodd" fill="#f1a7b2">
+     <path id="path125662" opacity="0.829" d="m1330.6-104.09c-14.814 0-26.74 11.928-26.74 26.742v14.439h44.473v-41.18h1v41.18h39.508v-41.18h1v41.18h39.506v-41.18h1v41.18h39.508v-41.18h1v41.18h39.506v-41.18h1v41.18h39.508v-41.18h1v41.18h40.564v-14.439c0-14.814-11.926-26.742-26.74-26.742h-235.09z"/>
+     <path id="path125660" opacity="0.829" d="m1303.9-61.908v48.807h44.473v-48.807h-44.473z"/>
+     <path id="path125658" opacity="0.829" d="m1349.3-61.908v48.807h39.508v-48.807h-39.508z"/>
+     <path id="path125656" opacity="0.829" d="m1389.8-61.908v48.807h39.506v-48.807h-39.506z"/>
+     <path id="path125654" opacity="0.829" d="m1430.3-61.908v48.807h39.508v-48.807h-39.508z"/>
+     <path id="path125652" opacity="0.829" d="m1470.9-61.908v48.807h39.506v-48.807h-39.506z"/>
+     <path id="path125650" opacity="0.829" d="m1511.4-61.908v48.807h39.508v-48.807h-39.508z"/>
+     <path id="path125648" opacity="0.829" d="m1551.9-61.908v48.807h40.564v-48.807h-40.564z"/>
+     <path id="path125646" opacity="0.829" d="m1303.9-12.101v48.809h44.473v-48.809h-44.473z"/>
+     <path id="path125644" opacity="0.829" d="m1349.3-12.101v48.809h39.508v-48.809h-39.508z"/>
+     <path id="path125642" opacity="0.829" d="m1389.8-12.101v48.809h39.506v-48.809h-39.506z"/>
+     <path id="path125640" opacity="0.829" d="m1430.3-12.101v48.809h39.508v-48.809h-39.508z"/>
+     <path id="path125638" opacity="0.829" d="m1470.9-12.101v48.809h39.506v-48.809h-39.506z"/>
+     <path id="path125636" opacity="0.829" d="m1511.4-12.101v48.809h39.508v-48.809h-39.508z"/>
+     <path id="path125634" opacity="0.829" d="m1551.9-12.101v48.809h40.564v-48.809h-40.564z"/>
+     <path id="path125632" opacity="0.829" d="m1303.9 37.707v48.807h44.473v-48.807h-44.473z"/>
+     <path id="path125630" opacity="0.829" d="m1349.3 37.707v48.807h39.508v-48.807h-39.508z"/>
+     <path id="path125628" opacity="0.829" d="m1389.8 37.707v48.807h39.506v-48.807h-39.506z"/>
+     <path id="path125626" opacity="0.829" d="m1430.3 37.707v48.807h39.508v-48.807h-39.508z"/>
+     <path id="path125624" opacity="0.829" d="m1470.9 37.707v48.807h39.506v-48.807h-39.506z"/>
+     <path id="path125622" opacity="0.829" d="m1511.4 37.707v48.807h39.508v-48.807h-39.508z"/>
+     <path id="path125620" opacity="0.829" d="m1551.9 37.707v48.807h40.564v-48.807h-40.564z"/>
+     <path id="path125618" opacity="0.829" d="m1303.9 87.514v48.809h44.473v-48.809h-44.473z"/>
+     <path id="path125616" opacity="0.829" d="m1349.3 87.514v48.809h39.508v-48.809h-39.508z"/>
+     <path id="path125614" opacity="0.829" d="m1389.8 87.514v48.809h39.506v-48.809h-39.506z"/>
+     <path id="path125612" opacity="0.829" d="m1430.3 87.514v48.809h39.508v-48.809h-39.508z"/>
+     <path id="path125610" opacity="0.829" d="m1470.9 87.514v48.809h39.506v-48.809h-39.506z"/>
+     <path id="path125608" opacity="0.829" d="m1511.4 87.514v48.809h39.508v-48.809h-39.508z"/>
+     <path id="path125606" opacity="0.829" d="m1551.9 87.514v48.809h40.564v-48.809h-40.564z"/>
+     <path id="path125604" opacity="0.829" d="m1303.9 137.32v20.42c0 14.814 11.926 26.74 26.74 26.74h17.732v-47.16h-44.473z"/>
+     <path id="path125602" opacity="0.829" d="m1349.3 137.32v47.16h39.508v-47.16h-39.508z"/>
+     <path id="path125600" opacity="0.829" d="m1389.8 137.32v47.16h39.506v-47.16h-39.506z"/>
+     <path id="path125598" opacity="0.829" d="m1430.3 137.32v47.16h39.508v-47.16h-39.508z"/>
+     <path id="path125596" opacity="0.829" d="m1470.9 137.32v47.16h39.506v-47.16h-39.506z"/>
+     <path id="path125594" opacity="0.829" d="m1511.4 137.32v47.16h39.508v-47.16h-39.508z"/>
+     <path id="rect125588" opacity="0.829" d="m1551.9 137.32v47.16h13.824c14.814 0 26.74-11.926 26.74-26.74v-20.42h-40.564z"/>
+    </g>
+    <g id="g126346">
+     <g fill-rule="evenodd">
+      <path id="circle126031" d="m1503.8 159.78a13.078 13.078 0 0 1 -13.078 13.078 13.078 13.078 0 0 1 -13.078 -13.078 13.078 13.078 0 0 1 13.078 -13.078 13.078 13.078 0 0 1 13.078 13.078z" fill="#92cdf9"/>
+      <path id="circle126029" opacity=".919" d="m1544.1 111.56a13.078 13.078 0 0 1 -13.078 13.078 13.078 13.078 0 0 1 -13.078 -13.078 13.078 13.078 0 0 1 13.078 -13.078 13.078 13.078 0 0 1 13.078 13.078z" fill="#e35066"/>
+      <path id="circle126033" d="m1382.4 159.78a13.078 13.078 0 0 1 -13.078 13.078 13.078 13.078 0 0 1 -13.078 -13.078 13.078 13.078 0 0 1 13.078 -13.078 13.078 13.078 0 0 1 13.078 13.078z" fill="#ea9b5c"/>
+     </g>
+     <path id="path126027" stroke-linejoin="round" d="m1463.4 111.56a13.078 13.078 0 0 1 -13.078 13.078 13.078 13.078 0 0 1 -13.078 -13.078 13.078 13.078 0 0 1 13.078 -13.078 13.078 13.078 0 0 1 13.078 13.078z" stroke="#6cfba4" stroke-linecap="round" stroke-width="3.8448" fill="none"/>
+    </g>
+    <g id="g126257">
+     <g id="g125740" font-size="13.639px" font-weight="900" font-family="&apos;Delicious Heavy&apos;">
+      <text id="text125022" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="-66.68425" x="1316.3508" fill="#e05539"><tspan id="tspan125024" x="1316.3508" y="-66.68425">sun</tspan></text>
+      <g fill="#000000">
+       <text id="text125022-9" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="-66.68425" x="1356.9377"><tspan id="tspan125024-7" x="1356.9377" y="-66.68425">mon</tspan></text>
+       <text id="text125022-7" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="-66.193253" x="1400.7493"><tspan id="tspan125024-6" x="1400.7493" y="-66.193253">tue</tspan></text>
+       <text id="text125022-4" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="-66.691063" x="1439.0913"><tspan id="tspan125024-3" x="1439.0913" y="-66.691063">wen</tspan></text>
+       <text id="text125022-0" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="-65.388565" x="1481.5175"><tspan id="tspan125024-30" x="1481.5175" y="-65.388565">thu</tspan></text>
+       <text id="text125022-92" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="-65.211258" x="1525.5271"><tspan id="tspan125024-5" x="1525.5271" y="-65.211258">fri</tspan></text>
+       <text id="text125022-40" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="-66.186432" x="1563.8893"><tspan id="tspan125024-59" x="1563.8893" y="-66.186432">sat</tspan></text>
+      </g>
+     </g>
+     <g id="g125894" font-size="13.639px" font-weight="900" font-family="&apos;Delicious Heavy&apos;" fill="#000000">
+      <text id="text125194" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="-34.162975" x="1447.4015"><tspan id="tspan125196" x="1447.4015" y="-34.162975">1</tspan></text>
+      <text id="text125198" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="-34.060684" x="1487.4719"><tspan id="tspan125200" x="1487.4719" y="-34.060684">2</tspan></text>
+      <text id="text125202" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="-35.206413" x="1527.9584"><tspan id="tspan125204" x="1527.9584" y="-35.206413">3</tspan></text>
+      <text id="text125206" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="-35.10405" x="1569.0763"><tspan id="tspan125208" x="1569.0763" y="-35.10405">4</tspan></text>
+     </g>
+     <g id="g125832" font-size="13.639px" font-weight="900" font-family="&apos;Delicious Heavy&apos;">
+      <text id="text125210" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="14.519222" x="1322.9749" fill="#e05539"><tspan id="tspan125212" x="1322.9749" y="14.519222">5</tspan></text>
+      <g fill="#000000">
+       <text id="text125214" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="16.647093" x="1365.9446"><tspan id="tspan125216" x="1365.9446" y="16.647093">6</tspan></text>
+       <text id="text125218" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="14.417156" x="1406.54"><tspan id="tspan125220" x="1406.54" y="14.417156">7</tspan></text>
+       <text id="text125222" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="16.497066" x="1446.9991"><tspan id="tspan125224" x="1446.9991" y="16.497066">8</tspan></text>
+       <text id="text125226" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="14.614918" x="1487.5605"><tspan id="tspan125228" x="1487.5605" y="14.614918">9</tspan></text>
+       <text id="text125230" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="15.644644" x="1524.6085"><tspan id="tspan125232" x="1524.6085" y="15.644644">10</tspan></text>
+       <text id="text125234" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="15.644644" x="1566.3879"><tspan id="tspan125236" x="1566.3879" y="15.644644">11</tspan></text>
+      </g>
+     </g>
+     <g id="g125848" font-size="13.639px" font-weight="900" font-family="&apos;Delicious Heavy&apos;">
+      <text id="text125238" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="65.554558" x="1319.6182" fill="#e05539"><tspan id="tspan125240" x="1319.6182" y="65.554558">12</tspan></text>
+      <g fill="#000000">
+       <text id="text125242" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="64.408829" x="1362.6425"><tspan id="tspan125244" x="1362.6425" y="64.408829">13</tspan></text>
+       <text id="text125246" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="64.511192" x="1403.0743"><tspan id="tspan125248" x="1403.0743" y="64.511192">14</tspan></text>
+       <text id="text125250" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="64.326843" x="1443.663"><tspan id="tspan125252" x="1443.663" y="64.326843">15</tspan></text>
+       <text id="text125254" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="66.454712" x="1484.0743"><tspan id="tspan125256" x="1484.0743" y="66.454712">16</tspan></text>
+       <text id="text125258" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="64.224777" x="1524.7313"><tspan id="tspan125260" x="1524.7313" y="64.224777">17</tspan></text>
+       <text id="text125262" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="66.304688" x="1565.5627"><tspan id="tspan125264" x="1565.5627" y="66.304688">18</tspan></text>
+      </g>
+     </g>
+     <g id="g125864" font-size="13.639px" font-weight="900" font-family="&apos;Delicious Heavy&apos;">
+      <text id="text125266" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="114.23016" x="1319.6113" fill="#e05539"><tspan id="tspan125268" x="1319.6113" y="114.23016">19</tspan></text>
+      <g fill="#000000">
+       <text id="text125270" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="115.25988" x="1362.8607"><tspan id="tspan125272" x="1362.8607" y="115.25988">20</tspan></text>
+       <text id="text125274" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="115.36217" x="1404.1108"><tspan id="tspan125276" x="1404.1108" y="115.36217">21</tspan></text>
+       <text id="text125278" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="115.36217" x="1443.9017"><tspan id="tspan125280" x="1443.9017" y="115.36217">22</tspan></text>
+       <text id="text125282" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="114.22327" x="1484.4426"><tspan id="tspan125284" x="1484.4426" y="114.22327">23</tspan></text>
+      </g>
+      <text id="text125286" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="114.4211" x="1524.8745" fill="#ffffff"><tspan id="tspan125288" x="1524.8745" y="114.4211">24</tspan></text>
+      <text id="text125290" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="114.23675" x="1565.9924" fill="#000000"><tspan id="tspan125292" x="1565.9924" y="114.23675">25</tspan></text>
+     </g>
+     <g id="g125880" font-size="13.639px" font-weight="900" font-family="&apos;Delicious Heavy&apos;">
+      <text id="text125294" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="165.2467" x="1319.8433" fill="#e05539"><tspan id="tspan125296" x="1319.8433" y="165.2467">26</tspan></text>
+      <text id="text125298" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="163.11906" x="1362.9835" fill="#ffffff"><tspan id="tspan125300" x="1362.9835" y="163.11906">27</tspan></text>
+      <text id="text125302" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="165.09668" x="1403.2858" fill="#000000"><tspan id="tspan125304" x="1403.2858" y="165.09668">28</tspan></text>
+      <text id="text125306" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="163.21452" x="1443.8949" fill="#000000"><tspan id="tspan125308" x="1443.8949" y="163.21452">29</tspan></text>
+      <text id="text125310" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="163.20764" x="1484.3267" fill="#ffffff"><tspan id="tspan125312" x="1484.3267" y="163.20764">30</tspan></text>
+      <text id="text125314" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" line-height="125%" y="163.20082" x="1525.5769" fill="#000000"><tspan id="tspan125316" x="1525.5769" y="163.20082">31</tspan></text>
+     </g>
+     <g id="g126251">
+      <text id="text125022-46" style="word-spacing:0px;letter-spacing:0px" font-weight="900" xml:space="preserve" font-size="13.639px" line-height="125%" y="-85.032692" x="1429.5253" font-family="&apos;Delicious Heavy&apos;" fill="#e56e56"><tspan id="tspan125024-9" x="1429.5253" y="-85.032692">August</tspan></text>
+      <path id="rect126020" d="m1330.3-98.207v13.236l-8.0391-6.618z" fill-rule="evenodd" fill="#5bceb2"/>
+      <path id="path126023" d="m1566.5-98.207v13.236l8.0391-6.618z" fill-rule="evenodd" fill="#5bceb2"/>
+     </g>
+    </g>
+   </g>
+   <g id="g126179">
+    <g fill-rule="evenodd">
+     <rect id="rect125118" opacity="0.849" transform="matrix(1.0023 0 0 .90945 -3.9121 -1.995)" ry="7.2602" height="88.893" filter="url(#h)" width="231.67" y="-129.59" x="1618.9" fill="#631003"/>
+     <rect id="rect125110" ry="7.2602" height="88.893" width="237.39" y="-132.45" x="1616" fill="#fedfda"/>
+     <path id="rect126035" d="m1616-108.99v41.984h4.0176c2.1383 0 3.8613-1.721 3.8613-3.8594v-34.266c0-2.1384-1.723-3.8594-3.8613-3.8594h-4.0176z" fill="#e55d71"/>
+    </g>
+    <g id="g126168">
+     <path id="path126025" d="m1832.9-126.32h13.236l-6.618 8.0391z" fill-rule="evenodd" fill="#5bceb2"/>
+     <g font-size="13.639px" font-family="&apos;Delicious Heavy&apos;" font-weight="900" fill="#000000">
+      <text id="text126044" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-108.72768" x="1631.3595" xml:space="preserve"><tspan id="tspan126046" y="-108.72768" x="1631.3595">8-24</tspan></text>
+      <text id="text126048" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-86.504295" x="1631.4141" xml:space="preserve"><tspan id="tspan126050" y="-86.504295" x="1631.4141">Title</tspan></text>
+      <text id="text126052" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-103.69794" x="1798.7642" xml:space="preserve"><tspan id="tspan126054" y="-103.69794" x="1798.7642">08:00 pm</tspan></text>
+      <text id="text126056" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-65.517052" x="1631.0049" xml:space="preserve"><tspan id="tspan126058" y="-65.517052" x="1631.0049">location</tspan></text>
+     </g>
+    </g>
+   </g>
+   <g id="g126205">
+    <g fill-rule="evenodd">
+     <rect id="rect125136" opacity="0.085" transform="matrix(1.0029 0 0 .91110 -5.1051 .079471)" ry="7.1429" height="88.893" filter="url(#a)" width="227.39" y="-43.553" x="1621" fill="#5b0f02"/>
+     <rect id="rect125112" opacity=".3" ry="7.1429" height="88.893" width="237.39" y="-43.553" x="1616" fill="#fedfda"/>
+     <path id="path126040" d="m1616-20.098v41.984h4.0176c2.1383 0 3.8613-1.721 3.8613-3.8594v-34.266c0-2.1384-1.723-3.8594-3.8613-3.8594h-4.0176z" fill="#ea9b5c"/>
+    </g>
+    <g id="g126194">
+     <path id="path126025-2" d="m1823.9-31.379h13.236l-6.618 8.0391z" fill-rule="evenodd" fill="#5bceb2"/>
+     <g font-size="13.639px" font-family="&apos;Delicious Heavy&apos;" font-weight="900" fill="#ffffff">
+      <text id="text126044-2" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-15.92732" x="1632.3157" xml:space="preserve"><tspan id="tspan126046-4" y="-15.92732" x="1632.3157">8-27</tspan></text>
+      <text id="text126048-7" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="6.2960701" x="1632.3702" xml:space="preserve"><tspan id="tspan126050-7" y="6.2960701" x="1632.3702">Title</tspan></text>
+      <text id="text126052-5" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="-11.611854" x="1799.006" xml:space="preserve"><tspan id="tspan126054-4" y="-11.611854" x="1799.006">08:00 pm</tspan></text>
+      <text id="text126056-8" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="27.283314" x="1631.9611" xml:space="preserve"><tspan id="tspan126058-1" y="27.283314" x="1631.9611">location</tspan></text>
+     </g>
+    </g>
+   </g>
+   <g id="g126232">
+    <rect id="rect125154" opacity="0.085" ry="7.1429" fill-rule="evenodd" transform="matrix(1.0029 0 0 .91110 -5.1051 87.937)" height="88.893" filter="url(#a)" width="227.39" y="-43.553" x="1621" fill="#5b0f02"/>
+    <rect id="rect125114" opacity=".3" fill-rule="evenodd" ry="7.1429" height="88.893" width="237.39" y="45.341" x="1616" fill="#fedfda"/>
+    <g id="g126220">
+     <path id="path126042" d="m1616 68.795v41.984h4.0176c2.1383 0 3.8613-1.721 3.8613-3.8594v-34.266c0-2.1384-1.723-3.8594-3.8613-3.8594h-4.0176z" fill-rule="evenodd" fill="#92cdf9"/>
+     <path id="path126025-28" d="m1824.6 55.764h13.236l-6.618 8.0391z" fill-rule="evenodd" fill="#5bceb2"/>
+     <g font-size="13.639px" font-family="&apos;Delicious Heavy&apos;" font-weight="900" fill="#ffffff">
+      <text id="text126044-9" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="71.929825" x="1630.1729" xml:space="preserve"><tspan id="tspan126046-3" y="71.929825" x="1630.1729">8-30</tspan></text>
+      <text id="text126048-6" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="94.153206" x="1630.2274" xml:space="preserve"><tspan id="tspan126050-8" y="94.153206" x="1630.2274">Title</tspan></text>
+      <text id="text126052-0" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="74.816719" x="1797.5775" xml:space="preserve"><tspan id="tspan126054-2" y="74.816719" x="1797.5775">08:00 pm</tspan></text>
+      <text id="text126056-1" style="word-spacing:0px;letter-spacing:0px" line-height="125%" y="115.14046" x="1629.8182" xml:space="preserve"><tspan id="tspan126058-0" y="115.14046" x="1629.8182">location</tspan></text>
+     </g>
+    </g>
+   </g>
+   <g id="g126163" fill-rule="evenodd">
+    <path id="path126128" opacity="0.804" d="m1601 185.2a24.286 24.286 0 0 1 -24.286 24.286 24.286 24.286 0 0 1 -24.286 -24.286 24.286 24.286 0 0 1 24.286 -24.286 24.286 24.286 0 0 1 24.286 24.286z" filter="url(#e)" fill="#1b1d51"/>
+    <path id="path126121" d="m1599.6 185.2a22.857 22.857 0 0 1 -22.857 22.857 22.857 22.857 0 0 1 -22.857 -22.857 22.857 22.857 0 0 1 22.857 -22.857 22.857 22.857 0 0 1 22.857 22.857z" fill="#4449c1"/>
+    <path id="rect126158" opacity="0.804" d="m1575.7 177.7v6.4858h-6.4859v2.0275h6.4859v6.4858h2.0273v-6.4858h6.4859v-2.0275h-6.4859v-6.4858h-2.0273z" fill="#dddef4"/>
+   </g>
+  </g>
+ </g>
+</svg>
